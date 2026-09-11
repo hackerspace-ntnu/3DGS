@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Builds / native artifacts
+build/
+cmake-build-*/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+# IDE / OS
+.vs/
+.DS_Store
+# Data and generated output
+data/*
+!data/README.md
+outputs/
+renders/
+checkpoints/
+logs/
+# Large reconstruction output
+colmap_workspace/
